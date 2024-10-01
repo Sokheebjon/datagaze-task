@@ -1,0 +1,91 @@
+{
+  "loading": "",
+  "table": {
+    "rows_per_page": "",
+    "total_data": ""
+  },
+  "datepicker": {
+    "start_date": "",
+    "end_date": ""
+  },
+  "button": {
+    "cancel": "",
+    "apply": "",
+    "export": "",
+    "filter": "",
+    "get_support": "",
+    "sing_in": ""
+  },
+  "columns": {
+    "date": "",
+    "employee": "",
+    "group": "",
+    "computer_name": "",
+    "document_type": "",
+    "content": "",
+    "chanel": "",
+    "severity": "",
+    "rate": "",
+    "action": ""
+  },
+  "status": {
+    "low": "",
+    "medium": "",
+    "high": "",
+    "not_incident": "",
+    "incident": "",
+    "not_rated": "",
+    "block": "",
+    "warn": ""
+  },
+  "dashboard": {
+    "detected_incidents": "",
+    "incident_by_modules": "",
+    "incident_dynamics": "",
+    "server_status": "",
+    "cpu_usage": "",
+    "memory_usage": "",
+    "disk_usage": "",
+    "licence_usage": "",
+    "statistics": ""
+  },
+  "form": {
+    "remote_view": "",
+    "login": "",
+    "password": ""
+  },
+  "actions": {
+    "block": "",
+    "warn": ""
+  },
+  "placeholder": {
+    "serverity": "",
+    "action_type": "",
+    "document_type": "",
+    "channel": ""
+  },
+  "layout": {
+    "brand_name": "",
+    "version": ""
+  },
+  "sidebar": {
+    "dashboard": "",
+    "controlled_employees": "",
+    "controlled_computers": "",
+    "policy_rules": "",
+    "detected_ingredients": "",
+    "system_reports": "",
+    "accounts": "",
+    "settings": "",
+    "system_logs": ""
+  },
+  "error": {
+    "user_not_registered": "",
+    "password_not_match": ""
+  },
+  "login": {
+    "title": "Secure. Robust. Scalable.",
+    "description": "",
+    "footer": ""
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "loading": "Loading...",
+  "table": {
+    "rows_per_page": "Rows per page",
+    "total_data": "Total data"
+  },
+  "datepicker": {
+    "start_date": "Start date",
+    "end_date": "End date"
+  },
+  "button": {
+    "cancel": "Cancel",
+    "apply": "Apply",
+    "export": "Export",
+    "filter": "Filter",
+    "get_support": "Get support",
+    "sing_in": "Sign in"
+  },
+  "columns": {
+    "date": "Date and time",
+    "employee": "Employee",
+    "group": "Group",
+    "computer_name": "Computer name",
+    "document_type": "Document type",
+    "content": "Content",
+    "chanel": "Chanel",
+    "severity": "Severity",
+    "rate": "Rate",
+    "action": "Action"
+  },
+  "status": {
+    "low": "low",
+    "medium": "medium",
+    "high": "high",
+    "not_incident": "Not incident",
+    "incident": "Incident",
+    "not_rated": "Not rated",
+    "block": "block",
+    "warn": "warn"
+  },
+  "dashboard": {
+    "detected_incidents": "Detected incidents",
+    "incident_by_modules": "Incident by modules",
+    "incident_dynamics": "Incident dynamics",
+    "server_status": "Server status",
+    "cpu_usage": "CPU usage",
+    "memory_usage": "Memory usage",
+    "disk_usage": "Disk usage",
+    "licence_usage": "Licence usage",
+    "statistics": "Statistics"
+  },
+  "form": {
+    "remote_view": "Remote view",
+    "login": "Login",
+    "password": "Password"
+  },
+  "actions": {
+    "block": "block",
+    "warn": "warn"
+  },
+  "placeholder": {
+    "serverity": "Serverity",
+    "action_type": "Action type",
+    "document_type": "Document type",
+    "channel": "Channel"
+  },
+  "layout": {
+    "brand_name": "Racciman LLC",
+    "version": "Datagaze DLP 2.8"
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "controlled_employees": "Controlled employees",
+    "controlled_computers": "Controlled computers",
+    "policy_rules": "Policy rules",
+    "detected_ingredients": "Detected ingredients",
+    "system_reports": "System reports",
+    "accounts": "Accounts",
+    "settings": "Settings",
+    "system_logs": "System logs"
+  },
+  "error": {
+    "user_not_registered": "User not registered",
+    "password_not_match": "Password does not match"
+  },
+  "login": {
+    "title": "Secure. Robust. Scalable.",
+    "description": "Effortless Data Management for Seamless Operations.",
+    "footer": "©️ Copyright 2024 Datagaze LLC"
+  }
+}
