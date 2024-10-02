@@ -1,91 +1,104 @@
 {
-  "loading": "",
+  "loading": "Загрузка...",
   "table": {
-    "rows_per_page": "",
-    "total_data": ""
+    "rows_per_page": "Строк на странице",
+    "total_data": "Всего данных"
   },
   "datepicker": {
-    "start_date": "",
-    "end_date": ""
+    "start_date": "Дата начала",
+    "end_date": "Дата окончания"
   },
   "button": {
-    "cancel": "",
-    "apply": "",
-    "export": "",
-    "filter": "",
-    "get_support": "",
-    "sing_in": ""
+    "cancel": "Отмена",
+    "apply": "Применить",
+    "export": "Экспорт",
+    "filter": "Фильтр",
+    "get_support": "Получить поддержку",
+    "sing_in": "Войти"
   },
   "columns": {
-    "date": "",
-    "employee": "",
-    "group": "",
-    "computer_name": "",
-    "document_type": "",
-    "content": "",
-    "chanel": "",
-    "severity": "",
-    "rate": "",
-    "action": ""
+    "date": "Дата и время",
+    "employee": "Сотрудник",
+    "group": "Группа",
+    "computer_name": "Имя компьютера",
+    "document_type": "Тип документа",
+    "content": "Содержимое",
+    "chanel": "Канал",
+    "severity": "Важность",
+    "rate": "Оценка",
+    "action": "Действие"
   },
   "status": {
-    "low": "",
-    "medium": "",
-    "high": "",
-    "not_incident": "",
-    "incident": "",
-    "not_rated": "",
-    "block": "",
-    "warn": ""
+    "low": "низкий",
+    "medium": "средний",
+    "high": "высокий",
+    "not_incident": "Не инцидент",
+    "incident": "Инцидент",
+    "not_rated": "Не оценено",
+    "block": "блокировать",
+    "warn": "предупредить"
   },
   "dashboard": {
-    "detected_incidents": "",
-    "incident_by_modules": "",
-    "incident_dynamics": "",
-    "server_status": "",
-    "cpu_usage": "",
-    "memory_usage": "",
-    "disk_usage": "",
-    "licence_usage": "",
-    "statistics": ""
+    "detected_incidents": "Обнаруженные инциденты",
+    "incident_by_modules": "Инциденты по модулям",
+    "incident_dynamics": "Динамика инцидентов",
+    "server_status": "Статус сервера",
+    "cpu_usage": "Использование CPU",
+    "memory_usage": "Использование памяти",
+    "disk_usage": "Использование диска",
+    "licence_usage": "Использование лицензии",
+    "statistics": "Статистика"
   },
   "form": {
-    "remote_view": "",
-    "login": "",
-    "password": ""
+    "remote_view": "Удаленный доступ",
+    "login": "Логин",
+    "password": "Пароль"
   },
   "actions": {
-    "block": "",
-    "warn": ""
+    "block": "блокировать",
+    "warn": "предупредить"
   },
   "placeholder": {
-    "serverity": "",
-    "action_type": "",
-    "document_type": "",
-    "channel": ""
+    "serverity": "Важность",
+    "action_type": "Тип действия",
+    "document_type": "Тип документа",
+    "channel": "Канал"
   },
   "layout": {
-    "brand_name": "",
-    "version": ""
+    "brand_name": "Racciman ООО",
+    "version": "Datagaze DLP 2.8"
+  },
+  "notification": {
+    "title": "Инциденты",
+    "no_notifications": "Нет уведомлений",
+    "number_of_incidents": "Количество инцидентов"
   },
   "sidebar": {
-    "dashboard": "",
-    "controlled_employees": "",
-    "controlled_computers": "",
-    "policy_rules": "",
-    "detected_ingredients": "",
-    "system_reports": "",
-    "accounts": "",
-    "settings": "",
-    "system_logs": ""
+    "dashboard": "Панель управления",
+    "controlled_employees": "Контролируемые сотрудники",
+    "controlled_computers": "Контролируемые компьютеры",
+    "policy_rules": "Правила политики",
+    "detected_ingredients": "Обнаруженные ингредиенты",
+    "system_reports": "Системные отчеты",
+    "accounts": "Аккаунты",
+    "settings": "Настройки",
+    "system_logs": "Системные журналы",
+    "dark_theme": "Ночная тема",
+    "language": "Язык",
+    "logout": "Выйти"
+  },
+  "language": {
+    "english": "Английский",
+    "uzbek": "Узбекский",
+    "russian": "Русский"
   },
   "error": {
-    "user_not_registered": "",
-    "password_not_match": ""
+    "user_not_registered": "Пользователь не зарегистрирован",
+    "password_not_match": "Пароль не совпадает"
   },
   "login": {
-    "title": "",
-    "description": "",
-    "footer": ""
+    "title": "Безопасный. Надежный. Масштабируемый.",
+    "description": "Легкое управление данными для бесперебойных операций.",
+    "footer": "©️ Copyright 2024 Datagaze ООО"
   }
 }

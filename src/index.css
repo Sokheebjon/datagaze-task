@@ -3,6 +3,15 @@
 @tailwind utilities;
 
 
+* {
+    font-family: "Inter", sans-serif;
+}
+
+#root{
+    height: 100vh;
+    overflow: hidden;
+}
+
 .progress-bar div {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;

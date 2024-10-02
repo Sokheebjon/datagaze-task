@@ -19,3 +19,8 @@ export {default as BadgeIcon} from './BadgeIcon';
 export {default as ExclamationMark} from './ExclamationMark';
 export {default as BlockIcon} from './BlockIcon';
 export {default as SelectIcon} from './SelectIcon';
+export {default as UserIcon} from './UserIcon';
+export {default as AlertIcon} from './AlertIcon';
+export {default as ThemeIcon} from './ThemeIcon';
+export {default as GlobusIcon} from './GlobusIcon';
+export {default as LogoutIcon} from './LogoutIcon';

@@ -2,10 +2,10 @@ import { initReactI18next } from 'react-i18next';
 import uz from '@/assets/locales/uz/translation.json';
 import ru from '@/assets/locales/ru/translation.json';
 import en from '@/assets/locales/en/translation.json';
-import { defaultLanguage } from '../utils/constants';
+import { DEFAULT_LANGUAGE } from '../utils/constants';
 import i18n from 'i18next';
 
-const initialLanguage = localStorage.getItem('i18nextLng') ?? defaultLanguage;
+const initialLanguage = localStorage.getItem('i18nextLng') ?? DEFAULT_LANGUAGE;
 
 enum backendLanguageEnum {
   nameRu = 'nameRu',

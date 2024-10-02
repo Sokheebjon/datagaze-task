@@ -24,6 +24,7 @@ const Login = () => {
 
     const loginMutation = useLoginMutation({
         onSuccess: (response) => {
+            console.log(response, "response");
             const accessToken = get(response, "data.token");
             Cookies.set(accessTokenName, accessToken, {expires: 1});
             navigate('/');

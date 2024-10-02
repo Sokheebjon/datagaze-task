@@ -1,6 +1,6 @@
 import {format} from "date-fns";
 
-export const defaultLanguage = 'en';
+export const DEFAULT_LANGUAGE = 'en';
 
 export const DEFAULT_PAGE = 1;
 export const DEFAULT_PAGE_SIZE = 10;

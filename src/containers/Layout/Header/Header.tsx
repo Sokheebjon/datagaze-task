@@ -1,6 +1,6 @@
-import {BellIcon, Logo} from "@/assets/icons";
-import {Button} from "@/components/ui/button.tsx";
+import {Logo} from "@/assets/icons";
 import {useTranslation} from "react-i18next";
+import Notification from "@/containers/Layout/Header/Notification.tsx";
 
 const Header = () => {
     const {t} = useTranslation()
@@ -14,9 +14,7 @@ const Header = () => {
                     <p className="text-gray-500 text-sm">{t("layout.version")}</p>
                 </div>
             </div>
-            <Button variant="ghost" className="px-2 py-2">
-                <BellIcon/>
-            </Button>
+            <Notification/>
         </div>
     )
 }

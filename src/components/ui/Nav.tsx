@@ -1,5 +1,6 @@
 "use client";
 
+import  {ReactNode} from "react";
 import {cn} from "@/lib/utils";
 import {buttonVariants} from "@/components/ui/button";
 import {Link, useLocation} from "react-router-dom";
@@ -7,7 +8,7 @@ import {Link, useLocation} from "react-router-dom";
 interface NavProps {
     links: {
         title: string;
-        // label?: string;
+        label?: ReactNode | string;
         link: string;
         icon: () => JSX.Element;
         variant: string;
@@ -39,17 +40,17 @@ export function Nav({links}: NavProps) {
                             <link.icon/>
                         </div>
                         {link.title}
-                        {/*{link.label && (*/}
-                        {/*    <span*/}
-                        {/*        className={cn(*/}
-                        {/*            "ml-auto",*/}
-                        {/*            link.variant === "default" &&*/}
-                        {/*            "text-background dark:text-white",*/}
-                        {/*        )}*/}
-                        {/*    >*/}
-                        {/*        {link.label}*/}
-                        {/*    </span>*/}
-                        {/*)}*/}
+                        {link.label && (
+                            <span
+                                className={cn(
+                                    "ml-auto",
+                                    link.variant === "default" &&
+                                    "text-background dark:text-white",
+                                )}
+                            >
+                                {link.label}
+                            </span>
+                        )}
                     </Link>
                 )}
             </nav>

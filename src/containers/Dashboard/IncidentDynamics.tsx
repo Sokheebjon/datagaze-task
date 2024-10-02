@@ -22,7 +22,7 @@ const IncidentDynamics = () => {
         params: {start, end}
     });
     const incidentDynamicsTotal = get(incidentDynamicsQuery, "data.data.total", []) as TTotalTypes[];
-    console.log(incidentDynamicsTotal, "incidentDynamicsData");
+
     const chartData = incidentDynamicsTotal[0] && Object.keys(incidentDynamicsTotal[0])?.map((key) => {
         return {
             label: key,

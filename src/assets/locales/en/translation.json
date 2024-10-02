@@ -68,6 +68,11 @@
     "brand_name": "Racciman LLC",
     "version": "Datagaze DLP 2.8"
   },
+  "notification": {
+    "title": "Incidents",
+    "no_notifications": "No notifications",
+    "number_of_incidents": "Number of incidents"
+  },
   "sidebar": {
     "dashboard": "Dashboard",
     "controlled_employees": "Controlled employees",
@@ -77,7 +82,15 @@
     "system_reports": "System reports",
     "accounts": "Accounts",
     "settings": "Settings",
-    "system_logs": "System logs"
+    "system_logs": "System logs",
+    "dark_theme": "Dark theme",
+    "language": "Language",
+    "logout": "Sign out"
+  },
+  "language": {
+    "english": "English",
+    "uzbek": "Uzbek",
+    "russian": "Russian"
   },
   "error": {
     "user_not_registered": "User not registered",

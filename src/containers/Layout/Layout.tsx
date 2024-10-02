@@ -12,6 +12,7 @@ import {
     SystemReportsIcon
 } from "@/assets/icons";
 import {PageHeader} from "@/components/ui/PageHeader.tsx";
+import {Badge} from "@/components/ui/badge.tsx";
 
 
 const Layout = () => {
@@ -19,7 +20,7 @@ const Layout = () => {
     const {pathname} = useLocation();
 
 
-    const menus = useMemo(()=> [
+    const menus = useMemo(() => [
         {
             title: t("sidebar.dashboard"),
             icon: DashboardIcon,
@@ -48,7 +49,8 @@ const Layout = () => {
             title: t('sidebar.detected_ingredients'),
             icon: DetectedIncidentsIcon,
             variant: "ghost",
-            link: "/detected-incidents"
+            link: "/detected-incidents",
+            label: <Badge className="bg-red-100 text-red-700" variant="destructive">{238}</Badge>
         },
         {
             title: t('sidebar.system_reports'),
@@ -80,16 +82,16 @@ const Layout = () => {
 
     return (
         <div className="bg-neutral-100">
-            <div className="grid grid-cols-6 gap-3">
+            <div className="grid grid-cols-[340px_1fr] gap-3">
                 <Sidebar menus={menus}/>
-                <div className="col-span-5">
-                    <div className="p-6">
-                        <div className="w-full pb-6">
-                            <PageHeader>{menu?.title}</PageHeader>
-                        </div>
-                        <Outlet/>
+
+                <div className="p-6 max-h-screen overflow-y-auto">
+                    <div className="w-full pb-6">
+                        <PageHeader>{menu?.title}</PageHeader>
                     </div>
+                    <Outlet/>
                 </div>
+
             </div>
         </div>
     )

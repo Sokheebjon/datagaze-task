@@ -1,91 +1,104 @@
 {
-  "loading": "",
+  "loading": "Yuklanmoqda...",
   "table": {
-    "rows_per_page": "",
-    "total_data": ""
+    "rows_per_page": "Sahifadagi qatorlar",
+    "total_data": "Jami ma'lumotlar"
   },
   "datepicker": {
-    "start_date": "",
-    "end_date": ""
+    "start_date": "Boshlanish sanasi",
+    "end_date": "Tugash sanasi"
   },
   "button": {
-    "cancel": "",
-    "apply": "",
-    "export": "",
-    "filter": "",
-    "get_support": "",
-    "sing_in": ""
+    "cancel": "Bekor qilish",
+    "apply": "Qo'llash",
+    "export": "Eksport",
+    "filter": "Filtr",
+    "get_support": "Yordam olish",
+    "sing_in": "Kirish"
   },
   "columns": {
-    "date": "",
-    "employee": "",
-    "group": "",
-    "computer_name": "",
-    "document_type": "",
-    "content": "",
-    "chanel": "",
-    "severity": "",
-    "rate": "",
-    "action": ""
+    "date": "Sana va vaqt",
+    "employee": "Xodim",
+    "group": "Guruh",
+    "computer_name": "Kompyuter nomi",
+    "document_type": "Hujjat turi",
+    "content": "Kontent",
+    "chanel": "Kanal",
+    "severity": "Jiddiylik",
+    "rate": "Baholash",
+    "action": "Harakat"
   },
   "status": {
-    "low": "",
-    "medium": "",
-    "high": "",
-    "not_incident": "",
-    "incident": "",
-    "not_rated": "",
-    "block": "",
-    "warn": ""
+    "low": "past",
+    "medium": "o'rta",
+    "high": "yuqori",
+    "not_incident": "Hodisa emas",
+    "incident": "Hodisa",
+    "not_rated": "Baholanmagan",
+    "block": "bloklash",
+    "warn": "ogohlantirish"
   },
   "dashboard": {
-    "detected_incidents": "",
-    "incident_by_modules": "",
-    "incident_dynamics": "",
-    "server_status": "",
-    "cpu_usage": "",
-    "memory_usage": "",
-    "disk_usage": "",
-    "licence_usage": "",
-    "statistics": ""
+    "detected_incidents": "Aniqlangan hodisalar",
+    "incident_by_modules": "Modullar bo'yicha hodisalar",
+    "incident_dynamics": "Hodisalar dinamikasi",
+    "server_status": "Server holati",
+    "cpu_usage": "CPU ishlatilishi",
+    "memory_usage": "Xotira ishlatilishi",
+    "disk_usage": "Disk ishlatilishi",
+    "licence_usage": "Litsenziya ishlatilishi",
+    "statistics": "Statistika"
   },
   "form": {
-    "remote_view": "",
-    "login": "",
-    "password": ""
+    "remote_view": "Masofaviy ko'rish",
+    "login": "Login",
+    "password": "Parol"
   },
   "actions": {
-    "block": "",
-    "warn": ""
+    "block": "bloklash",
+    "warn": "ogohlantirish"
   },
   "placeholder": {
-    "serverity": "",
-    "action_type": "",
-    "document_type": "",
-    "channel": ""
+    "serverity": "Jiddiylik",
+    "action_type": "Harakat turi",
+    "document_type": "Hujjat turi",
+    "channel": "Kanal"
   },
   "layout": {
-    "brand_name": "",
-    "version": ""
+    "brand_name": "Racciman MCHJ",
+    "version": "Datagaze DLP 2.8"
+  },
+  "notification": {
+    "title": "Hodisalar",
+    "no_notifications": "Bildirishnomalar yo'q",
+    "number_of_incidents": "Hodisalar soni"
   },
   "sidebar": {
-    "dashboard": "",
-    "controlled_employees": "",
-    "controlled_computers": "",
-    "policy_rules": "",
-    "detected_ingredients": "",
-    "system_reports": "",
-    "accounts": "",
-    "settings": "",
-    "system_logs": ""
+    "dashboard": "Boshqaruv paneli",
+    "controlled_employees": "Nazoratdagi xodimlar",
+    "controlled_computers": "Nazoratdagi kompyuterlar",
+    "policy_rules": "Qoidalar siyosati",
+    "detected_ingredients": "Aniqlangan ingredientlar",
+    "system_reports": "Tizim hisobotlari",
+    "accounts": "Hisoblar",
+    "settings": "Sozlamalar",
+    "system_logs": "Tizim jurnallari",
+    "dark_theme": "Tungi rejim",
+    "language": "Til",
+    "logout": "Chiqish"
+  },
+  "language": {
+    "english": "Ingliz",
+    "uzbek": "O'zbek",
+    "russian": "Rus"
   },
   "error": {
-    "user_not_registered": "",
-    "password_not_match": ""
+    "user_not_registered": "Foydalanuvchi ro'yxatdan o'tmagan",
+    "password_not_match": "Parol mos emas"
   },
   "login": {
-    "title": "Secure. Robust. Scalable.",
-    "description": "",
-    "footer": ""
+    "title": "Xavfsiz. Ishonchli. Masshtablanadigan.",
+    "description": "Ma'lumotlarni oson boshqarish va uzluksiz operatsiyalar uchun.",
+    "footer": "©️ Copyright 2024 Datagaze MCHJ"
   }
 }
