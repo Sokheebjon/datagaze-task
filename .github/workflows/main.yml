@@ -24,3 +24,4 @@ jobs:
 
       - name: Deploy
         run:  cp -a ~/datagaze/actions-runner/_work/datagaze-task/datagaze-task/dist/. /var/www/datagaze.educon.uz/html
+
