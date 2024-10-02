@@ -23,4 +23,4 @@ jobs:
         run: npm run build
 
       - name: Deploy
-        run:  cp -a ~/front-runner/actions-runner/_work/datagaze-task/datagaze-task/dist/. /var/www/datagaze.educon.uz/html
+        run:  cp -a ~/datagaze/actions-runner/_work/datagaze-task/datagaze-task/dist/. /var/www/datagaze.educon.uz/html
