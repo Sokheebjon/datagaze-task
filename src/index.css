@@ -17,6 +17,11 @@
     border-bottom-right-radius: 5px;
 }
 
+
+.data-table tbody tr:nth-child(even), .data-table thead tr {
+    background-color: #F7F7F8;
+}
+
 @layer base {
     :root {
         --background: 0 0% 100%;
